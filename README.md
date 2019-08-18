@@ -1,6 +1,6 @@
-# webpack-vue-tailwindcss-starter
+# Vue & TailwindCSS Starter
 
-> A Vue.js project
+> A Vue & TailwindCSS starter. Built on top of the [vuejs webpack template](https://github.com/vuejs-templates/webpack)
 
 ## Build Setup
 
