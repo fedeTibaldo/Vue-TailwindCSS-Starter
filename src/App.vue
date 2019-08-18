@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <div id="app" class="mt-16 text-gray-800 text-center">
+    <img class="inline" src="./assets/logo.png">
     <HelloWorld/>
   </div>
 </template>
@@ -16,13 +16,14 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="postcss">
+@tailwind base;
+
+a {
+  color: theme('colors.brand');
 }
+
+@tailwind components;
+
+@tailwind utilities;
 </style>
