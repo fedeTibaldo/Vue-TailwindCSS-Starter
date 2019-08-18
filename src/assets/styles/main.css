@@ -1,0 +1,9 @@
+@tailwind base;
+
+a {
+	color: theme('colors.brand');
+}
+
+@tailwind components;
+
+@tailwind utilities;

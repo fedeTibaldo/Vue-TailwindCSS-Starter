@@ -17,13 +17,5 @@ export default {
 </script>
 
 <style lang="postcss">
-@tailwind base;
-
-a {
-  color: theme('colors.brand');
-}
-
-@tailwind components;
-
-@tailwind utilities;
+  @import './assets/styles/main.css'
 </style>
