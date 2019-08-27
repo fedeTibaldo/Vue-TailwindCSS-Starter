@@ -60,7 +60,8 @@ const webpackConfig = merge(baseWebpackConfig, {
         path.join(__dirname, './../index.html'),
         path.join(__dirname, './../**/*.vue'),
         path.join(__dirname, './../src/**/*.js')
-      ])
+	  ]),
+	  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     }),
     // Compress extracted CSS. We are using this plugin so that possible
     // duplicated CSS from different components can be deduped.
